@@ -1,0 +1,282 @@
+<html>
+
+<head>
+    <style>
+        * {
+
+            background-repeat: no-repeat;
+            background-blend-mode: darkens;
+            margin: 0px;
+            padding: 0px;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-image: url("background.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: 25% 85%;
+        }
+
+        #navbar ul {
+
+            display: none;
+            background-color: #f90;
+            position: absolute;
+            top: 100%;
+        }
+
+        #navbar:hover {
+            color: cornflowerblue;
+
+        }
+
+
+
+        #navbar,
+        #navbar ul {
+            margin: 0;
+            padding: 10;
+            list-style-type: none;
+        }
+
+        #navbar {
+            height: 30Px;
+            background-color: #666;
+            padding-left: 25px;
+            min-width:
+                470px;
+
+        }
+
+        #navbar li {
+            float: left;
+            position: relative;
+            height: 100%;
+
+        }
+
+
+        #navbar li a {
+            display: block;
+            padding: 6px;
+            width: 100px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        #navbar ul li {
+            float: none;
+        }
+
+        #navbar li:hover {
+            background-color: black;
+
+        }
+
+
+        #navbar ul li:hover {
+            background-color: red;
+
+        }
+
+        #logo {
+            width: 10%;
+            display: flex;
+            gap: 5px;
+            background-color: transparent;
+            z-index: 100;
+
+        }
+
+        #id {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img-cont img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .img-cont {
+            margin-left: 5rem;
+            margin-right: 5rem;
+            padding: 3rem;
+            width: 1200px;
+            /* background-color: black; */
+            display: flex;
+            gap: 3rem;
+
+        }
+
+        .img-div {
+            width: 200px;
+            height: 200px;
+            border-radius: 5px;
+            background-position: 50% 50%;
+            background-size: 100% 100%;
+        }
+
+        .img-div:hover {
+            background-size: 110% 110%;
+            transition: background-size .5s 0.001s ease-in-out;
+        }
+
+        #d-g {
+            /* background-color: black; */
+            display: grid;
+            grid-row: 1fr 1fr;
+            position: absolute;
+            top: 60rem;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #d-g>span {
+            text-align: center;
+        }
+        #ab-cont{
+            background-color: rgba(82, 75, 75, 0.621);
+            display: flex;
+            padding: 3rem;
+            justify-content: center;
+            gap: 5rem;
+        }
+        .a{
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <br><br><br>
+    <div id="logo"><img src="logo.jpg" width="35px" height="50px" alt=""><span id="logo-text"> Bright Real Estate</span>
+    </div>
+
+    <ul id="navbar">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#1">LANDS</a></li>
+        <li><a href="#1">CONTACTS</a>
+          <!-- <ul>
+            <li>
+                <p>office: 1800523145</p>
+            </li>
+            <li>
+                <p>ph no : 1855664329</p>
+            </li>
+          </ul> -->
+        </li>
+        <li><a href="aboutus.html">ABOUT US </a></li>
+        <li><a href="project.html"> PROJECTS </a></li>
+        <li><a href="registration.html"> REGISTER </a></li>
+    </ul>
+
+    <div id="d-g">
+        <span style="color: black;font-size: 2rem;"> Gallery</span>
+        <section >
+            <div class="img-cont">
+                <div class="img-div" style="background-image:url('img1.png')"></div>
+                <div class="img-div" style="background-image:url('img2.png')"></div>
+                <div class="img-div" style="background-image:url('img3.png')"></div>
+                <div class="img-div" style="background-image:url('img4.png')"></div>
+                <div class="img-div" style="background-image:url('img5.png')"></div>
+                <div class="img-div" style="background-image:url('img6.png')"></div>
+
+            </div>
+        </section>
+        <br>
+        <br>
+        <div id="d-g" style="top: 20rem;" id="1">
+            <span style="color: black;font-size: 2rem;"> FARM LANDS FOR SALE </span>
+            <section id="1">
+                <div class="img-cont">
+                    <div class="img-div" style="background-image:url('image7.png')"></div>
+                    <div class="img-div" style="background-image:url('image8.png')"></div>
+                    <div class="img-div" style="background-image:url('image9.png')"></div>
+                    <div class="img-div" style="background-image:url('image10.png')"></div>
+                    <div class="img-div" style="background-image:url('image11.png')"></div>
+
+
+                </div>
+            </section>
+
+            <div id="d-g" style="top: 20rem;">
+                <span style="color: black;font-size: 2rem;"> COMMERCIAL  LANDS FOR SALE </span>
+                <section id="1">
+                    <div class="img-cont">
+                        <div class="img-div a" style="background-image:url('image12.png')"></div>
+                        <div class="img-div a" style="background-image:url('image13.png')"></div>
+                        <div class="img-div a" style="background-image:url('image14.png')"></div>
+                        <div class="img-div a" style="background-image:url('image15.png')"></div>
+                        <div class="img-div a"style="background-image:url('image16.png')"></div>
+                        <div class="img-div a"style="background-image:url('image17.png')"></div>
+
+
+                    </div>
+                </section>
+
+                <div id="d-g" style="top: 20rem;">
+                    <span style="color: black;font-size: 2rem;"> INSTITUTIONAL LANDS FOR SALE </span>
+                    <section id="1">
+                        <div class="img-cont">
+                            <div class="img-div a" style="background-image:url('image18.png')"></div>
+                            <div class="img-div a" style="background-image:url('image19.png')"></div>
+                            <div class="img-div a" style="background-image:url('image20.png')"></div>
+                            <div class="img-div a" style="background-image:url('image21.png')"></div>
+                            <div class="img-div a"style="background-image:url('image22.png')"></div>
+                            <div class="img-div a"style="background-image:url('image23.png')"></div>
+    
+    
+                        </div>
+                    </section>
+    
+
+                
+
+                <div id="ab-cont">
+                    <div id="about">
+                        <p><span class="inside"><strong>About Us</strong></span></p>
+                        <p><span class="inside">Our Mission</span></p>
+                        <p>to provide the best to you</p>
+                        <p>your home our mission</p>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div id="contacts">
+
+                        <p>CONTACTS</p>
+                        
+                        <p>office: 1800523145</p>
+                        <p>ph no : 1855664329</p>
+                        <p>mobile :9870945328</p>
+
+                    </div>
+
+
+
+                    <div id="timings">
+                        <P>
+                            <BOLD>TIMING</BOLD>
+                        </P>
+                        <P>MONDAY TO SATUARDAY</P>
+                        <P>FROM 10:00AM TO 9:00PM</P>
+                        <P>ADDRESS: KSR COMPLEX , KURNOOL </P>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
